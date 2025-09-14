@@ -1,0 +1,3 @@
+Cześć, jestem waszym kolegą ze starszego rocznika. W zeszłym roku zrobiłem dwa streamy dotyczące drugiego projektu z WAI. Jeden przedstawiał podstawy PHP, a drugi pokazywał budowę przykładowej aplikacji w architekturze MVC (z obiektami). Nagrania z obu transmisji dostępne są na YouTube i mam nadzieję, że wam pomogą. 
+https://www.youtube.com/channel/UC27YCMw1ugmLuq6gHI5y9EQ 
+

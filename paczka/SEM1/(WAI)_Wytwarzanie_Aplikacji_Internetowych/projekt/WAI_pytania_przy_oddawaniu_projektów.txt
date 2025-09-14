@@ -1,0 +1,29 @@
+3 Przykładowe pluginy jQuery:
+    ●	https://esolangs.netlify.app/gallery.html
+    ●	http://dbrekalo.github.io/simpleLightbox/
+    ●	https://github.com/nk-o/jarallax
+
+Strona do sprawdzania czy dana funkcjonalność działa we wszystkich przeglądarkach:
+    ●	https://caniuse.com/
+
+Pytania przy oddawaniu projektu (przykładowe):
+    ●	którą opcję linkowania jQuery wybraliśmy i czemu (CDN czy lokalnie pobrane pliki)
+    ●	co sprawdza linijka if (window.localStorage) i kto i skąd serwuje HTMLa z not found przy błędzie 404 po wysłaniu formularza
+    ●	czy coś się stanie jeżeli przeniosę biblioteki jquery i link do pliku z funkcjami js do body zamiast heada
+    ●	Pytała o ResponseHeader i dlaczego taki (po przesłaniu formularza)
+    ●	pytała o kod js'a, co robi dana linia i o html'a: czy lepiej jak skrypt jquery pobiera się z serwera googla czy z mojego załączenia z folderu i jaka jest różnica kiedy <script> umieszczę w headzie albo w body i jaka powinna być kolejność takiego zamieszczenia
+    ●	Co oznacza Content-Length header, czym charakteryzuje się TypeScript (typy np. elementu HTML), co oznacza void przy funkcji
+    ●	Czym przesyłasz żądanie (get czy post)? Ile masz parametrów w pasku adresu? Od jakiego symbolu zaczynają się deklaracje parametrów? Co robi ta metoda length w JavaScript? Te ostrzeżenie, że by skorzystać z formularza trzeba włączyć JS to jest na sztywno czy tylko gdy JS jest wyłączony?
+    ●	Pokaż skrypt który dodaje elementy drzewa DOM i powiedz co robi
+    ●	Jakiej wersji serwera używamy i gdzie się wywołują funkcje js
+    ●	Jakie elementy są zaciągane z cache i pokazać je. Pokazać co jest przekazywane po wysłaniu formularza.
+    ●	dlaczego pliki wysyłamy postem a nie getem
+    ●	Czy request po wciśnięciu submit buttonu wykonuje się synchronicznie czy asynchronicznie i po czym to poznać
+    ●	co to sanityzacja danych?
+
+Uwaga - dziubich odejmuje punkty za błędy w sztuce:
+    ●	 -3 za niewygenerowanie nowego id sesji przy wylogowaniu:
+    jesli ktos ma mp. session_start we frontcontrollerze, to jesli wyloguje sie uzytkownik i zrobi doslownie cokolwiek (np odswiezy strone) to automatycznie mu wygeneruje nowe id sesji
+    wystarczy session_start(); we frontcontroller.php
+    ●	trzeba usunac plik cookies ktory ma w sobie Id sesji
+

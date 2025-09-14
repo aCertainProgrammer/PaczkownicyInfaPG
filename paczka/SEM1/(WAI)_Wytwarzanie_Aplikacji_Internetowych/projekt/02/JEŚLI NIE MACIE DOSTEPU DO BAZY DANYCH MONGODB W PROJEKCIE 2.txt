@@ -1,0 +1,3 @@
+Wklejcie to coś do konsoli:
+ 
+mongo -u wai_web -pw@i_w3b --authenticationDatabase wai
